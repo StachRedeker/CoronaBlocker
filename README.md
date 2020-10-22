@@ -10,9 +10,9 @@ CoronaBlocker can be installed as Chrome extension or Firefox add-on. I am curre
 
 For now, download the folder `en_EN` from the latest version.
 
-Chrome: <br>
+**Chrome:** <br>
 Go to [`extensions`](chrome://extensions/) and activate `Developer mode`. Then press `Load unpacked` and navigate to the download location on your computer. Press `select` and you are good to go!
 
-Firefox: <br>
+**Firefox:** <br>
 Go to [`addons`](about:addons) and navigate to the settings icon. Click `debugging add-ons` and then `load temporary add-on`. Upload a zip-file with the contents of the previously downloaded folder (`en_EN`).
 
