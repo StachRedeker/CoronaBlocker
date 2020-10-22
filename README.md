@@ -17,16 +17,16 @@ Go to [`extensions`](chrome://extensions/) and activate `Developer mode`. Then p
 Go to [`addons`](about:addons) and navigate to the settings icon. Click `debugging add-ons` and then `load temporary add-on`. Upload a zip-file with the contents of the previously downloaded folder (`en_EN`).
 
 ### What does CoronaBlocker do?
-
 The extension searches for `corona`, `covid` and `SARS-CoV` on every webpage you visit. When found, CoronaBlocker changes those words to `dogs` (because everyone likes dogs). The small red batch on top of the extension icon shows how many words have been replaced on that page.
 
 
 ### Future improvements
+Please note that CoronaBlocker is not a professional company, or an app that I am planning to develop for years. It is a joke, made to be fun and entertaining. I have limited time and knowledge, therefore I do not think I will be able to implement all of my ideas. Moreover, I do not even know how to solve most of the problems described down below. So, if you do know how to make these improvements (or have any other suggestions) and if you feel inspired by my project, do not hesitate to contact me, or to make a pull request.
 
 - [x] Add synonyms for 'corona' to the code
 - [ ] Add an easy option to turn the CoronaBlocker on and off
 - [ ] Find a way to turn off the replacement of words, but to keep the counter visible and working
-- [ ] 
+- [ ] A fix for the fact that after you open another tab and visit another website, the count on the other tab isn't accurate anymore
 - [ ] Let users pick there own remplacement words
 
 ### Special thanks
