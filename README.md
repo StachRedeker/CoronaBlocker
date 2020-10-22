@@ -16,7 +16,7 @@ Go to [`extensions`](chrome://extensions/) and activate `Developer mode`. Then p
 **Firefox:** <br>
 Go to [`addons`](about:addons) and navigate to the settings icon. Click `debugging add-ons` and then `load temporary add-on`. Upload a zip-file with the contents of the previously downloaded folder (`en_EN`).
 
-### What does CoronaBlocker do?
+### What does CoronaBlocker exactly do?
 The extension searches for `corona`, `covid` and `SARS-CoV` on every webpage you visit. When found, CoronaBlocker changes those words to `dogs` (because everyone likes dogs). The small red batch on top of the extension icon shows how many words have been replaced on that page.
 
 
