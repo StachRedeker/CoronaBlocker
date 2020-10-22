@@ -18,11 +18,15 @@ Go to [`addons`](about:addons) and navigate to the settings icon. Click `debuggi
 
 ### What does CoronaBlocker do?
 
+The extension searches for `corona`, `covid` and `SARS-CoV` on every webpage you visit. When found, CoronaBlocker changes those words to `dog`. The small red batch on top of the extension icon shows how many words have been replaced on that page.
+
+
 ### Future improvements
 
 - [x] Add synonyms for 'corona' to the code
 - [ ] Add an easy option to turn the CoronaBlocker on and off
 - [ ] Find a way to turn off the replacement of words, but to keep the counter visible and working
+- [ ] Find a way to 
 - [ ] Let users pick there own remplacement words
 
 ### Special thanks
