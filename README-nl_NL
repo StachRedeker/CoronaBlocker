@@ -1,21 +1,21 @@
 # CoronaBlocker (:netherlands:)
 >CoronaBlocker vervangt viruswoorden voor vriendelijkere alternatieven.
 
-#### Read the English (:uk:) version of this document [here](/README). 
+#### Lees de Engelse (:uk:) versie van dit document [hier](/README). 
 
 Corona, corona en nog eens corona: open een (nieuws)website en je leest bijna niets anders meer. CoronaBlocker vervangt woorden zoals 'corona', 'covid' en 'SARS-CoV' voor vriendelijkere alternatieven én waarschuwt je van te voren hoeveel coronagerelateerde woorden je kunt verwachten.
-### Installation 
-CoronaBlocker can be installed as Chrome extension or Firefox add-on. I am currently working on getting the program in both app stores.
+### Installatie
+CoronaBlocker kan geïnstalleerd worden als Chrome extensie of als Firefox add-on. Ik ben momenteel bezig met het publiceren van het programma in beide appstores.
 
-For now, download the folder `en_EN` from the latest version.
+Je kunt de extensie nu al handmatig installeren. Download de map `nl_NL` van de laatste versie.
 
 **Chrome:** <br>
-Go to [`extensions`](chrome://extensions/) and activate `Developer mode`. Then press `Load unpacked` and navigate to the download location on your computer. Press `select` and you are good to go!
+Ga naar [`extensies`](chrome://extensions/) en activeer `Ontwikkelaarsmodus`. Druk dan op `Uitgepakte extensie laden` en navigeer naar de downloadlocatie op je computer. Druk op `selecteren` en je hebt de extensie succesvol geïnstalleerd!
 
 **Firefox:** <br>
-Go to [`addons`](about:addons) and navigate to the settings icon. Click `debugging add-ons` and then `load temporary add-on`. Upload a zip-file with the contents of the previously downloaded folder (`en_EN`).
+Ga naar [`add-ons`](about:addons) en klik op het instellingenpictogram. Selecteer `Add-ons debuggen` en klik daarna op `Tijdelijke add-on laden...`. Upload een zip-bestand met als inhoud de zojuist gedownloade map (`nl_NL`).
 
-### What does CoronaBlocker exactly do?
+### Wat doet de CoronaBlocker eigenlijk?
 The extension searches for `corona`, `covid` and `SARS-CoV` on every webpage you visit. When found, CoronaBlocker changes those words to `dogs` (because everyone likes dogs). The small red batch on top of the extension icon shows how many words have been replaced on that page.
 
 
