@@ -16,3 +16,8 @@ Go to [`extensions`](chrome://extensions/) and activate `Developer mode`. Then p
 **Firefox:** <br>
 Go to [`addons`](about:addons) and navigate to the settings icon. Click `debugging add-ons` and then `load temporary add-on`. Upload a zip-file with the contents of the previously downloaded folder (`en_EN`).
 
+### What does CoronaBlocker do?
+
+### Future improvements
+
+### Special thanks to
