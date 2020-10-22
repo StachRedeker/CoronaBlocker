@@ -1,9 +1,10 @@
 # CoronaBlocker (:netherlands:)
 >CoronaBlocker vervangt viruswoorden voor vriendelijkere alternatieven.
 
-#### Lees de Engelse (:uk:) versie van dit document [hier](/README). 
+#### Lees de Engelse (:uk:) versie van dit document [hier](/README.md). 
 
 Corona, corona en nog eens corona: open een (nieuws)website en je leest bijna niets anders meer. CoronaBlocker vervangt woorden zoals 'corona', 'covid' en 'SARS-CoV' voor vriendelijkere alternatieven én waarschuwt je van te voren hoeveel coronagerelateerde woorden je kunt verwachten.
+
 ### Installatie
 CoronaBlocker kan geïnstalleerd worden als Chrome extensie of als Firefox add-on. Ik ben momenteel bezig met het publiceren van het programma in beide appstores.
 
@@ -16,17 +17,17 @@ Ga naar [`extensies`](chrome://extensions/) en activeer `Ontwikkelaarsmodus`. Dr
 Ga naar [`add-ons`](about:addons) en klik op het instellingenpictogram. Selecteer `Add-ons debuggen` en klik daarna op `Tijdelijke add-on laden...`. Upload een zip-bestand met als inhoud de zojuist gedownloade map (`nl_NL`).
 
 ### Wat doet de CoronaBlocker eigenlijk?
-The extension searches for `corona`, `covid` and `SARS-CoV` on every webpage you visit. When found, CoronaBlocker changes those words to `dogs` (because everyone likes dogs). The small red batch on top of the extension icon shows how many words have been replaced on that page.
+De extensie zoekt naar `corona`, `covid` en `SARS-CoV` op iedere webpagina die je bezoekt. Wanneer CoronaBlocker deze woorden vindt, vervangt het programma ze door `honden` (want iedereen houdt van honden). De kleine rode batch bij het icoontje van de extensie laat zien hoeveel woorden er op de desbetreffende pagina zijn vervangen.
 
 
-### Future improvements
-Please note that CoronaBlocker is not a professional company, or an app that I am planning to develop for years. It is a joke, made to be fun and entertaining. I have limited time and knowledge, therefore I do not think I will be able to implement all of my ideas. Moreover, I do not even know how to solve most of the problems described down below. So, if you do know how to make these improvements (or have any other suggestions) and if you feel inspired by my project, do not hesitate to contact me, or to make a pull request.
+### Wensenlijstje voor verbeteringen
+Houd er rekening mee dat CoronaBlocker geen professioneel bedrijf is, of een app die ik jaren zal gaan ontwikkelen. Het is bedoeld als een grap. Ik heb te weinig tijd en kennis om al mijn ideeën te implementeren. Bovendien weet ik niet eens hoe ik de meeste van de hieronder beschreven problemen moet oplossen. Maarrr... als jij wel weet hoe je deze verbeteringen kunt aanbrengen (of andere suggesties hebt) en als je je geïnspireerd voelt door mijn project, aarzel dan niet om contact met mij op te nemen of een pull request te maken.
 
-- [x] Add synonyms for 'corona' to the code
-- [ ] Add an easy option to turn the CoronaBlocker on and off
-- [ ] Find a way to turn off the replacement of words, but to keep the counter visible and working
-- [ ] A fix for the fact that after you open another tab and visit another website, the count on the other tab isn't accurate anymore
-- [ ] Let users pick there own remplacement words
+- [x] Voeg synoniemen voor 'corona' toe
+- [ ] Voeg een gemakkelijke manier CoronaBlocker aan en uit te zetten toe
+- [ ] Vind een manier om de vervanging van woorden uit te zetten, maar de counter wel (werkend) te tonen
+- [ ] Een oplossing voor het feit dat de teller in de rode batch niet meer klopt, als je een website op een ander tabblad bezoekt en daarna weer terugkeert naar het eerste tabblad
+- [ ] De mogelijkheid dat gebruikers hun eigen vervangingswoorden kunnen instellen
 
-### Special thanks
-Special thanks to [Noah Verkaik](https://github.com/Nowaha) for teaching me how to add 'corona' synonyms to the code and [Mohsin Ali](https://github.com/mohsinaliryk) for helping me with my batch-counter-problems on [StackOverflow](https://stackoverflow.com/questions/64459576/incremental-counter-chrome-extension-batch-javascript).
+### Dankwoord
+Mijn dank gaat in het bijzonder naar [Noah Verkaik](https://github.com/Nowaha), omdat hij me heeft geleerd hoe ik meerdere synoniemen voor 'corona' kon toevoegen en [Mohsin Ali](https://github.com/mohsinaliryk), omdat hij mij op [StackOverflow](https://stackoverflow.com/questions/64459576/incremental-counter-chrome-extension-batch-javascript) heeft geholpen met mijn batch-teller-problemen.
