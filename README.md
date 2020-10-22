@@ -20,4 +20,4 @@ Go to [`addons`](about:addons) and navigate to the settings icon. Click `debuggi
 
 ### Future improvements
 
-### Special thanks to
+### Special thanks
